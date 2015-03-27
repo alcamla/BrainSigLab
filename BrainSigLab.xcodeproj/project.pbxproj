@@ -14,6 +14,7 @@
 		6C07FE0B1AC5C02100705A30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C07FE0A1AC5C02100705A30 /* Images.xcassets */; };
 		6C07FE0E1AC5C02100705A30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C07FE0C1AC5C02100705A30 /* LaunchScreen.xib */; };
 		6C07FE1A1AC5C02100705A30 /* BrainSigLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FE191AC5C02100705A30 /* BrainSigLabTests.swift */; };
+		6C07FE241AC607A500705A30 /* GBCSignalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07FE231AC607A500705A30 /* GBCSignalsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6C07FE131AC5C02100705A30 /* BrainSigLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainSigLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C07FE181AC5C02100705A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C07FE191AC5C02100705A30 /* BrainSigLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainSigLabTests.swift; sourceTree = "<group>"; };
+		6C07FE231AC607A500705A30 /* GBCSignalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCSignalsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6C07FE001AC5C02100705A30 /* AppDelegate.swift */,
 				6C07FE051AC5C02100705A30 /* ViewController.swift */,
 				6C07FE071AC5C02100705A30 /* Main.storyboard */,
+				6C07FE231AC607A500705A30 /* GBCSignalsViewController.swift */,
 				6C07FE0A1AC5C02100705A30 /* Images.xcassets */,
 				6C07FE0C1AC5C02100705A30 /* LaunchScreen.xib */,
 				6C07FE021AC5C02100705A30 /* BrainSigLab.xcdatamodeld */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C07FE061AC5C02100705A30 /* ViewController.swift in Sources */,
+				6C07FE241AC607A500705A30 /* GBCSignalsViewController.swift in Sources */,
 				6C07FE041AC5C02100705A30 /* BrainSigLab.xcdatamodeld in Sources */,
 				6C07FE011AC5C02100705A30 /* AppDelegate.swift in Sources */,
 			);
@@ -347,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainSigLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainSigLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -415,6 +421,7 @@
 				6C07FE1F1AC5C02100705A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C07FE201AC5C02100705A30 /* Build configuration list for PBXNativeTarget "BrainSigLabTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +430,7 @@
 				6C07FE221AC5C02100705A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
